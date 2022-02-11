@@ -25,7 +25,6 @@ function initialize(
   request = new XMLHttpRequest(),
   key = "0e5afa38488c46c4b5a71c71995ca50a"
 ) {
-  const { open, setRequestHeader, addEventListener, send } = request;
   request.open("GET", qurl);
   request.setRequestHeader("Accept", "application/json");
   request.setRequestHeader("Ocp-Apim-Subscription-Key", key);
