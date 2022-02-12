@@ -12,15 +12,20 @@
         <button onclick="runSearch();">Search</button>
       </div>
       <div class="suggestions">
-        <ul>
-        </ul>
+        <ul class="related"></ul>
       </div>
     </div>
+    <div class="moodboard">
+      Search and click on images to add to your mood board!
+      <div class="moodboardimgs"></div>
+    </div>
     <div id="results" class="results">
-      <a id="exitButton" href="#" title="Close the search results pane">X</a>
-      Thing 1
-      Thing 2
-      Thing 3
+      <div id="close">
+        <a href="#" title="Close the search results pane"
+          >Clear Search Images</a
+        >
+      </div>
+      <div id="output"></div>
     </div>
   </div>
   <script src="apikey.js"></script>
